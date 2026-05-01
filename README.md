@@ -61,8 +61,34 @@ Question #2
 
 ## Manipulations
 
+### Question 1 Manipulations:
+
+To prepare the data for analysis, several filters and calculated fields were applied in Tableau.
+
+First, the StratificationCategory1 field was filtered to "Overall" across all visualizations to ensure we were analyzing the general population rather than specific demographic subgroups like age, sex, or race/ethnicity. This kept the comparisons between states consistent.
+
+Second, the DataValueType field was filtered to "Age-adjusted Prevalence" for the chronic disease visualizations. Age-adjusted prevalence accounts for differences in age distribution between states, making it a fair and accurate way to compare disease burden across states with very different populations. Without this adjustment, states with older populations would appear to have higher disease rates simply due to demographics rather than true disease burden.
+
+Two calculated fields were also created to help analyze the question:
+
+Chronic Disease Score — This field calculates the average age-adjusted prevalence rate across five major chronic disease topics: Cardiovascular Disease, Diabetes, Asthma, Arthritis, and Mental Health. The formula used was:\
+AVG(IF [Topic] = "Cardiovascular Disease" OR [Topic] = "Diabetes" OR [Topic] = "Asthma" OR [Topic] = "Arthritis" OR [Topic] = "Mental Health" THEN [DataValue] END)
+
+This gave each state a single composite score that represents its overall chronic disease burden.
+
+Risk Factor Score — This field calculates the average prevalence rate across three behavioral risk factor topics: Tobacco, Alcohol, and Nutrition, Physical Activity, and Weight Status. The formula used was: \
+AVG(IF [Topic] = "Tobacco" OR [Topic] = "Alcohol" OR [Topic] = "Nutrition, Physical Activity, and Weight Status" THEN [DataValue] END)
+
+This gives each state a single composite score that represents its overall behavioral risk factor burden.
+
+These two scores were then plotted against each other in a scatter plot to examine the relationship between risk factors and chronic disease rates across states. A linear trend line was applied to clearly show the correlation between the two scores across states. Two average reference lines were also added to divide the scatter plot into four quadrants to make it easy to identify which states fall above or below the national average on both measures. Data points were color coded by Chronic Disease Score so that the highest burden states appear as the darkest dots, adding a third dimension to the visualization and making priority states immediately clear.
+
+
+### Question 2 Manipulations:
+
 ## Analysis and Results
-Ouestion #1\
+### Question #1
+
 <img width="774" height="787" alt="image" src="https://github.com/user-attachments/assets/bd2cd9b0-cde3-455e-aa2b-2faac53bbe4f" />
 
 
