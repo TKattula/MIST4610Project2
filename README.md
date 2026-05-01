@@ -38,7 +38,7 @@ Description: This dataset pulls data from multiple sources like the BRFSS (Behav
 #### Topic: 
 Data Type: String (Catagorical)
 
-Description: This column is important as it allows us to understand the topic of the data in the row. For example certain data was collected while gathering information on Cancer, so this row would have 'Cancer' as its input.
+Description: This column is important as it allows us to understand the topic of the data in the row. The CDC included data on both the chronic illness itself and possible indicators in this field. For example, certain data was collected while gathering information on Cancer, so this row would have 'Cancer' as its input. Similarly, if data was collected on tobacco use as an indicator,  this row could also have 'Tobacco' as its input.
 
 #### Question: 
 Data Type: String (Catagorical)
