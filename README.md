@@ -62,5 +62,10 @@ Question #2
 ## Manipulations
 
 ## Analysis and Results
+Ouestion #1\
+<img width="774" height="787" alt="image" src="https://github.com/user-attachments/assets/bd2cd9b0-cde3-455e-aa2b-2faac53bbe4f" />
+
+
+
 
 ## Tableau Packaged Workbook
