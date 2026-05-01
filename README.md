@@ -89,9 +89,14 @@ These two scores were then plotted against each other in a scatter plot to exami
 ## Analysis and Results
 ### Question #1
 
-<img width="774" height="787" alt="image" src="https://github.com/user-attachments/assets/bd2cd9b0-cde3-455e-aa2b-2faac53bbe4f" />
+<img width="774" height="787" alt="image" src="https://github.com/user-attachments/assets/bd2cd9b0-cde3-455e-aa2b-2faac53bbe4f" /> \
+The scatter plot comparing each state's Chronic Disease Score against its Risk Factor Score shows a clear positive correlation between behavioral risk factors and chronic disease burden across U.S. states. The upward sloping linear trend line confirms that states with higher behavioral risk factor prevalence (like tobacco or alcohol use) consistently tend to have higher chronic disease rates, suggesting the relationship is not coincidental but rather a meaningful pattern across the country.
+
+The two average reference lines dividing the chart into four quadrants make it easy to identify which states are the most concerning. States appearing in the upper right quadrant are above the national average on both axes and have both elevated risk factors and elevated chronic disease rates simultaneously. These states, including Mississippi, West Virginia, Tennessee, and Arkansas, to name a few, are the clearest candidates for prevention resource prioritization. Their darker colored data points further reinforce that they carry the highest chronic disease burden in the dataset. On the opposite end, states like New Jersey, DC, and California fall in the lower left quadrant with below average scores on both measures, suggesting that their existing public health efforts may be producing better outcomes and could serve as models for higher burden states.
+
+The overall implication of this analysis is that chronic disease burden and behavioral risk factors move together across states, meaning that simply increasing treatment in high burden states is unlikely to make a lasting improvement. Instead, the data supports directing prevention resources, like quitting tobacco programs, alcohol reduction initiatives, and nutrition and physical activity knowledge, would be most beneficial for the states identified in the upper right quadrant, where addressing the root behavioral causes has the most potential to reduce long-term chronic disease rates.
 
 
-
+### Question #2
 
 ## Tableau Packaged Workbook
