@@ -57,6 +57,13 @@ Description: This column is very important as it serves as the key resource in u
 Question #1 \
 In states with the highest chronic disease prevalence, are high-risk behavioral factors like tobacco use, alcohol consumption, and poor nutrition also elevated? Does this relationship suggest where prevention resources should be targeted?
 
+Why it is Important 
+This question is important because it helps identify whether chronic diseases are linked to preventable behaviors like smoking, alcohol use, and poor nutrition. If states with high disease rates also show high levels of these risk factors, it suggests that many of these health issues are not random but driven by lifestyle patterns. This has strong social and economic impacts, since chronic diseases increase healthcare costs, reduce productivity, and lower quality of life. It also matters for health, because understanding these relationships allows governments and organizations to focus on prevention instead of just treatment. Instead of spreading resources evenly, they can target the areas and behaviors that are actually causing the biggest problems. 
+
+How it ties into data set and further actions 
+This question ties directly into the dataset by comparing chronic disease prevalence with behavioral risk factors across states. This helps identify patterns or correlations between lifestyle behaviors and disease rates. Based on the results, actions could include targeting high-risk states with prevention programs like anti-smoking efforts or nutrition education, making interventions more focused and effective. 
+
+
 Question #2
 
 ## Manipulations
