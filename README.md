@@ -81,7 +81,7 @@ AVG(IF [Topic] = "Tobacco" OR [Topic] = "Alcohol" OR [Topic] = "Nutrition, Physi
 
 This gives each state a single composite score that represents its overall behavioral risk factor burden.
 
-These two scores were then plotted against each other in a scatter plot to examine the relationship between risk factors and chronic disease rates across states. A linear trend line was applied to clearly show the correlation between the two scores across states. Two average reference lines were also added to divide the scatter plot into four quadrants to make it easy to identify which states fall above or below the national average on both measures. Data points were color coded by Chronic Disease Score so that the highest burden states appear as the darkest dots, adding a third dimension to the visualization and making priority states immediately clear.
+These two scores were then plotted against each other in a scatter plot to examine the relationship between risk factors and chronic disease rates across states. A linear trend line was applied to clearly show the correlation between the two scores across states. Two average reference lines were also added to divide the scatter plot into four quadrants to make it easy to identify which states fall above or below the national average on both measures. Data points were color coded by Chronic Disease Score so that the highest burden states appear as the darkest dots, adding a third dimension to the visualization and making priority states immediately clears.
 
 
 ### Question 2 Manipulations:
