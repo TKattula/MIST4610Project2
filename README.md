@@ -7,17 +7,17 @@ Jessica Downen [@JessicaDownen](https://github.com/JessicaDownen) \
 Darren Zhang [@darrenzhang11](https://github.com/darrenzhang11)
 
 ## Data Description
-This dataset contains information regarding 115 indicators for chonic diseases that were developed by the CDC, CSTE NACDD. The dataset allows health professionals to understand trends nation-wide and state specific, and be able to understand health trends in their specific area. 
+This dataset contains information regarding 115 indicators for chronic diseases that were developed by the CDC, CSTE NACDD. The dataset allows health professionals to understand trends nation-wide and state specific, and be able to understand health trends in their specific area. 
 
 This dataset contains 34 columns, 10 of which are blank columns and are not used within the dataset at all and 309,216 rows. Each row contains information regarding the type of information collected, the topic, the location and many other thing. Below are the columns and thier datatype and a description of the columns use. 
 
 ### YearStart: 
-Data Type: Numeric
+Data Type: Numeric (Year)
 
 Description: This column is important as it indicated the start year of when the data in the specific row began being collected.
 
 ### YearEnd: 
-Data Type: Numeric
+Data Type: Numeric (Year)
 
 Description: This column is important as it indicated the last or final year the data in the specific row was collected.
 
@@ -57,7 +57,7 @@ Data Type: String (Catagorical)
 Description: This column includes information regarding the data value. It is the type of measurement used to collect the data. For example, the crude rate (total number of events) or age-adjusted rate.
 
 ### DataValue: 
-Data Type: Numerical 
+Data Type: Numerical (float)
 
 Description: This is the actual measurement of data. The value that was actually measured. 
 
@@ -67,12 +67,12 @@ Data Type: String (Catagorical)
 Description: This column includes information regarding the data value. This contain notes or relevent information regarding the data collection. Including "Data supressed; too few respondants or cases" or "No data available"
 
 ### LowConfidenceLimit: 
-Data Type: Numerical
+Data Type: Numerical (float)
 
 Description: This column represents the lower confidence limit for the data in regards to its confidence interval. 
 
 ### HighConfidenceLimit: 
-Data Type: Numerical
+Data Type: Numerical (float)
 
 Description: This column represents the higher confidence limit for the data in regards to its confidence interval. 
 
@@ -91,10 +91,10 @@ Data Type: Mixed (Numerical and String)
 
 Description: This includes the location of where the data was collect written in longitude and latitude. 
 
-### Columns 25-29: 
+### Columns 19-22,27,30-34: 
 Data Type: Mixed (Numerical and Catagorical)
 
-Description: These columns are unique ID's for the location, topic, question, stratification and data value type columns. 
+Description: These columns are ID's for the location, topic, question, stratification and data value type columns.
 
 ## Questions and Their Importance
 Question #1 \
