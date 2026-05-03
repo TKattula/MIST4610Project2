@@ -7,7 +7,7 @@ Jessica Downen [@JessicaDownen](https://github.com/JessicaDownen) \
 Darren Zhang [@darrenzhang11](https://github.com/darrenzhang11)
 
 ## Data Description
-This dataset contains information regarding 115 indicators for chonic diseases that were developed by the CDC, CSTE NACDD. The dataset allows health professionals to understand trends nation-wide and state specific. And be able to understand health trends in their specific area. 
+This dataset contains information regarding 115 indicators for chonic diseases that were developed by the CDC, CSTE NACDD. The dataset allows health professionals to understand trends nation-wide and state specific, and be able to understand health trends in their specific area. 
 
 This dataset contains 34 columns, 10 of which are blank columns and are not used within the dataset at all and 309,216 rows. Each row contains information regarding the type of information collected, the topic, the location and many other thing. Below are the columns and thier datatype and a description of the columns use. 
 
