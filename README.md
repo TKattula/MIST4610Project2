@@ -107,7 +107,14 @@ This question is important because it helps identify whether chronic diseases ar
 This question ties directly into the dataset by comparing chronic disease prevalence with behavioral risk factors across states. This helps identify patterns or correlations between lifestyle behaviors and disease rates. Based on the results, actions could include targeting high-risk states with prevention programs like anti-smoking efforts or nutrition education, making interventions more focused and effective. 
 
 
-Question #2
+Question #2 \
+With West Virginia having the highest chronic disease burden, whichc chronic disease and demographic are the most affected?
+
+**Why it is Important** --
+This question is important because it helps identify which chronic disease and group is the biggest issue specifically within the state of West Virginia. While question one focused on the behaviors to see how those could be prevented, this question is useful in determining where to send resources for those already affected. By specifically breaking down by disease type and then further by demographic such as age and race, it pinpoints a specific group that resources can be put towards to improve chronic disease numbers.
+
+**How it ties into data set and further actions** -- 
+This question ties into the dataset by looking at chronic disease prevalence across demographic groups within one geolocation in the dataset. This helps to take patterns from a high-level into a more zoomed-in focus to really allow a business to know exactly where resources are needed.
 
 ## Manipulations
 
@@ -135,6 +142,7 @@ These two scores were then plotted against each other in a scatter plot to exami
 
 
 ### Question 2 Manipulations:
+For question 2, to get the results we wanted, the question was broken down into 2 visualizations.
 
 ## Analysis and Results
 ### Question #1
@@ -148,6 +156,8 @@ The overall implication of this analysis is that chronic disease burden and beha
 
 
 ### Question #2
+
+<img width="558" height="190" alt="Screenshot 2026-05-03 at 6 15 58 PM" src="https://github.com/user-attachments/assets/bf4067a4-ed00-462a-9cc9-79b7a82d980e" /><img width="594" height="126" alt="Screenshot 2026-05-03 at 6 16 32 PM" src="https://github.com/user-attachments/assets/65b0268b-94e0-4080-86f3-be534b570674" />
 
 
 ## Tableau Packaged Workbook
