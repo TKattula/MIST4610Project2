@@ -45,10 +45,55 @@ Data Type: String (Catagorical)
 
 Description: This column is very important as it serves as the key resource in understand why the data was being collected. The question is essentially the reason for the collection the 'Why?'.
 
-#### Question: 
+#### DataValueUnit: 
 Data Type: String (Catagorical)
 
-Description: This column is very important as it serves as the key resource in understand why the data was being collected. The question is essentially the reason for the collection the 'Why?'.
+Description: This column includes information regarding the data value. It is the unit of measurement. For example a percentage or per 100,000. 
+
+#### DataValueType: 
+Data Type: String (Catagorical)
+
+Description: This column includes information regarding the data value. It is the type of measurement used to collect the data. For example, the crude rate (total number of events) or age-adjusted rate.
+
+#### DataValue: 
+Data Type: Numerical 
+
+Description: This is the actual measurement of data. The value that was actually measured. 
+
+#### DataValueFootnotes: 
+Data Type: String (Catagorical)
+
+Description: This column includes information regarding the data value. This contain notes or relevent information regarding the data collection. Including "Data supressed; too few respondants or cases" or "No data available"
+
+#### LowConfidenceLimit: 
+Data Type: Numerical
+
+Description: This column represents the lower confidence limit for the data in regards to its confidence interval. 
+
+#### HighConfidenceLimit: 
+Data Type: Numerical
+
+Description: This column represents the higher confidence limit for the data in regards to its confidence interval. 
+
+#### StratificationCategory1: 
+Data Type: String (Catagorical)
+
+Description: This is the subgroup of people that were used to collect the data. Including age, gender, race, etc. 
+
+#### Stratification1: 
+Data Type: String (Catagorical)
+
+Description: This column refers to the specific subgroup used to collect the data. For example Sex = Female.
+
+#### Geolocation: 
+Data Type: Mixed (Numerical and String)
+
+Description: This includes the location of where the data was collect written in longitude and latitude. 
+
+
+
+
+
 
 
 
