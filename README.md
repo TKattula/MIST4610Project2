@@ -8,84 +8,82 @@ Darren Zhang [@darrenzhang11](https://github.com/darrenzhang11)
 
 ## Data Description
 
-#### YearStart: 
+### YearStart: 
 Data Type: Numeric
 
 Description: This column is important as it indicated the start year of when the data in the specific row began being collected.
 
-#### YearEnd: 
+### YearEnd: 
 Data Type: Numeric
 
 Description: This column is important as it indicated the last or final year the data in the specific row was collected.
 
-Together, the start year and end year is the period of time (in years) where the data specific to the row was collected.
-
-#### LocationAbbr: 
+### LocationAbbr: 
 Data Type: String (Catagorical)
 
 Description: This column is a abbrivation of the state that the data was collected in (i.e. GA).
 
-#### LocationDesc: 
+### LocationDesc: 
 Data Type: String (Catagorical)
 
 Description: This column contains the same information as the column 'LocationAbbr', however this column display the states name is their full form (i.e. Georgia)
 
-#### DataSource: 
+### DataSource: 
 Data Type: String (Catagorical)
 
 Description: This dataset pulls data from multiple sources like the BRFSS (Behavioral Risk Factor Surveillance System), US Cancer DVT and NVSS (National Vital Statistics System). This column allows us to identify where the specific rows gather their information from. This is vital as it allows us to understand what the data was being measured for and be able to identify the data within their respective sources.
 
-#### Topic: 
+### Topic: 
 Data Type: String (Catagorical)
 
 Description: This column is important as it allows us to understand the topic of the data in the row. The CDC included data on both the chronic illness itself and possible indicators in this field. For example, certain data was collected while gathering information on Cancer, so this row would have 'Cancer' as its input. Similarly, if data was collected on tobacco use as an indicator,  this row could also have 'Tobacco' as its input.
 
-#### Question: 
+### Question: 
 Data Type: String (Catagorical)
 
 Description: This column is very important as it serves as the key resource in understand why the data was being collected. The question is essentially the reason for the collection the 'Why?'.
 
-#### DataValueUnit: 
+### DataValueUnit: 
 Data Type: String (Catagorical)
 
 Description: This column includes information regarding the data value. It is the unit of measurement. For example a percentage or per 100,000. 
 
-#### DataValueType: 
+### DataValueType: 
 Data Type: String (Catagorical)
 
 Description: This column includes information regarding the data value. It is the type of measurement used to collect the data. For example, the crude rate (total number of events) or age-adjusted rate.
 
-#### DataValue: 
+### DataValue: 
 Data Type: Numerical 
 
 Description: This is the actual measurement of data. The value that was actually measured. 
 
-#### DataValueFootnotes: 
+### DataValueFootnotes: 
 Data Type: String (Catagorical)
 
 Description: This column includes information regarding the data value. This contain notes or relevent information regarding the data collection. Including "Data supressed; too few respondants or cases" or "No data available"
 
-#### LowConfidenceLimit: 
+### LowConfidenceLimit: 
 Data Type: Numerical
 
 Description: This column represents the lower confidence limit for the data in regards to its confidence interval. 
 
-#### HighConfidenceLimit: 
+### HighConfidenceLimit: 
 Data Type: Numerical
 
 Description: This column represents the higher confidence limit for the data in regards to its confidence interval. 
 
-#### StratificationCategory1: 
+### StratificationCategory1: 
 Data Type: String (Catagorical)
 
 Description: This is the subgroup of people that were used to collect the data. Including age, gender, race, etc. 
 
-#### Stratification1: 
+### Stratification1: 
 Data Type: String (Catagorical)
 
 Description: This column refers to the specific subgroup used to collect the data. For example Sex = Female.
 
-#### Geolocation: 
+### Geolocation: 
 Data Type: Mixed (Numerical and String)
 
 Description: This includes the location of where the data was collect written in longitude and latitude. 
