@@ -108,7 +108,7 @@ This question ties directly into the dataset by comparing chronic disease preval
 
 
 Question #2 \
-With West Virginia having the highest chronic disease burden, whichc chronic disease and demographic are the most affected?
+With West Virginia having the highest chronic disease burden, which chronic disease is most prevalent and which demographic groups are the most affected?
 
 **Why it is Important** --
 This question is important because it helps identify which chronic disease and group is the biggest issue specifically within the state of West Virginia. While question one focused on the behaviors to see how those could be prevented, this question is useful in determining where to send resources for those already affected. By specifically breaking down by disease type and then further by demographic such as age and race, it pinpoints a specific group that resources can be put towards to improve chronic disease numbers.
