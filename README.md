@@ -169,7 +169,8 @@ The overall implication of this analysis is that chronic disease burden and beha
 
 ### Question #2
 
-<img width="558" height="190" alt="Screenshot 2026-05-03 at 6 15 58 PM" src="https://github.com/user-attachments/assets/bf4067a4-ed00-462a-9cc9-79b7a82d980e" /><img width="594" height="126" alt="Screenshot 2026-05-03 at 6 16 32 PM" src="https://github.com/user-attachments/assets/65b0268b-94e0-4080-86f3-be534b570674" />
+<img width="558" height="190" alt="Screenshot 2026-05-03 at 6 15 58 PM" src="https://github.com/user-attachments/assets/bf4067a4-ed00-462a-9cc9-79b7a82d980e" /><img width="700" height="135" alt="Screenshot 2026-05-04 at 1 53 38 PM" src="https://github.com/user-attachments/assets/f3cb292f-6ae8-45a4-87e0-791172a9457a" />
+
 Starting with ther first visual, It is extremely evident that the most prevalent chronic disease is cardiovascular disease, especially in those over age 65. This age range especially for cardiovascular disease is not shocking as old age makes someone more prone to the disease. However, it is important to see that the average cases for this age demographic is way larger than other age groups or diseases. This shows that it is something to focus even more on for health professionals looking at disease treatment.
 
 For the second visual, to further hone in on the affected demographics, it was best to look at race demographics only for the group age >=65 to draw relevant conclusions. From this we can see that the msot affected race is White non-Hispanic. This could be used to for professionals to look at genetic factors that may be impacted by race in disease treatments.
