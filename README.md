@@ -142,7 +142,19 @@ These two scores were then plotted against each other in a scatter plot to exami
 
 
 ### Question 2 Manipulations:
-For question 2, to get the results we wanted, the question was broken down into 2 visualizations.
+For question 2, to get the results we wanted, the question was better when broken down into 2 visualizations. For both visuals Location(State) field to was filtered to "WV" to ensure that data was only being shown for West Virginia.
+
+On the first visual a couple more manipulations were made:\
+First, the Stratification was filtered to include only age demographics, and second, the AGG(Chronic Disease Prevalence Score) was included in filters to ensure that only chronic diseases included in that score were included in this visual.
+
+The columns were Topic (ie. chronic disease) and the rows were Stratification (ie. age demographic)  
+
+On the second visual, different manipulations were made:\
+First, the Topic field was filtered to "Cardiovascular disease" to show date for that chronic disease only. Next, the stratification field was set to be "Age >= 65" and all races, to get data for only those in the group we wanted to zoom in on. 
+
+The columns were Stratification (ie. race demographic) and the rows were Topic (ie. chronic disease)
+
+Both visuals have the labels and colors manipulated from AVG(DataValue).
 
 ## Analysis and Results
 ### Question #1
@@ -158,6 +170,10 @@ The overall implication of this analysis is that chronic disease burden and beha
 ### Question #2
 
 <img width="558" height="190" alt="Screenshot 2026-05-03 at 6 15 58 PM" src="https://github.com/user-attachments/assets/bf4067a4-ed00-462a-9cc9-79b7a82d980e" /><img width="594" height="126" alt="Screenshot 2026-05-03 at 6 16 32 PM" src="https://github.com/user-attachments/assets/65b0268b-94e0-4080-86f3-be534b570674" />
+Starting with ther first visual, It is extremely evident that the most prevalent chronic disease is cardiovascular disease, especially in those over age 65. This age range especially for cardiovascular disease is not shocking as old age makes someone more prone to the disease. However, it is important to see that the average cases for this age demographic is way larger than other age groups or diseases. This shows that it is something to focus even more on for health professionals looking at disease treatment.
 
+For the second visual, to further hone in on the affected demographics, it was best to look at race demographics only for the group age >=65 to draw relevant conclusions. From this we can see that the msot affected race is White non-Hispanic. This could be used to for professionals to look at genetic factors that may be impacted by race in disease treatments.
+
+Overall, the visuals need one another to be viewed together to see the whole picture, but zooming in on West Virginia shows health professionals that the group in need of most resources are White non-Hispanics over the age of 65 that suffer form cardiovascular disease.
 
 ## Tableau Packaged Workbook
