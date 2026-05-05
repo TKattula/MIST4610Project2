@@ -178,3 +178,4 @@ For the second visual, to further hone in on the affected demographics, it was b
 Overall, the visuals need one another to be viewed together to see the whole picture, but zooming in on West Virginia shows health professionals that the group in need of most resources are White non-Hispanics over the age of 65 that suffer form cardiovascular disease.
 
 ## Tableau Packaged Workbook
+Included as a file.
